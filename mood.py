@@ -31,21 +31,20 @@ words = set(words)
 
 # list of responses
 good = [
-        f"I am glad {user_name}, have it more good.",
-        f"That's a good thing {user_name}. You should be grateful.",
-        f"I am so happy for you, {user_name}",
-        f"Lol.. Looks like you're having a good day\n" \
-                "What's the secret {user_name}... I am just saying."
-       ]
+    f"I am glad {user_name}, have it more good.",
+    f"That's a good thing {user_name}. You should be grateful.",
+    f"I am so happy for you, {user_name}",
+    f"Lol.. Looks like you're having a good day\n" "What's the secret {user_name}... I am just saying."
+]
 
 bad = [
-        f"Sorry about that {user_name}. Well, it happens, so cheer up ",
-        f"It'll pass {user_name}, and eventually you'll be fine.",
-        f"Who knows your bad might turn good someday, straight up {user_name} \o/",
-        f"It only gets better from here {user_name}.",
-        f"At least you are breathing. Do you know what that means {user_name}?",
-        f"{user_name}, How about checking out on your partner in crime"
-      ]
+    f"Sorry about that {user_name}. Well, it happens, so cheer up ",
+    f"It'll pass {user_name}, and eventually you'll be fine.",
+    f"Who knows your bad might turn good someday, straight up {user_name} \o/",
+    f"It only gets better from here {user_name}.",
+    f"At least you are breathing. Do you know what that means {user_name}?",
+    f"{user_name}, How about checking out on your partner in crime"
+]
 
 # conditional statements and print some messages based on user input
 for word in words:
@@ -54,5 +53,5 @@ for word in words:
     elif "bad" in word.lower():
         print(random.choice(bad))
     elif "sick" in word.lower():
-        print(f"Get well soon {user_name}. Try to get treatment " \
-                "check on your doctor for advise.")
+        print(f"Get well soon {user_name}. Try to get treatment \
+              check on your doctor for advise.")
